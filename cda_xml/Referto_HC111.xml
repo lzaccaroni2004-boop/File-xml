@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ClinicalDocument xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdtc="urn:hl7-org:sdtc">
+    <realmCode code="IT"/>
+    <typeId root="2.16.840.1.113883.1.3" extension="POCD_HD000040"/>
+    <templateId root="2.16.840.1.113883.2.9.10.1.9.1" extension="1.1"/>
+    <id root="2.16.840.1.113883.2.9.2.80.4.4" extension="REF-2026-HC111-001"/>
+    <code code="11488-4" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Referto di consulto"/>
+    <title>Referto Screening Prodromico Parkinson - Soggetto HC111</title>
+    <effectiveTime value="20260517110000+0200"/>
+    <confidentialityCode code="N" codeSystem="2.16.840.1.113883.5.25" displayName="Normal"/>
+    <languageCode code="it-IT"/>
+    <setId root="2.16.840.1.113883.2.9.2.80.4.4" extension="SET-HC111-001"/>
+    <versionNumber value="1"/>
+
+    <recordTarget>
+        <patientRole>
+            <id root="2.16.840.1.113883.2.9.4.3.2" extension="RSSMRA53A01H501Z"/>
+            <patient>
+                <name>
+                    <given>Paziente</given>
+                    <family>HC111</family>
+                </name>
+                <administrativeGenderCode code="F" codeSystem="2.16.840.1.113883.5.1" codeSystemName="HL7 AdministrativeGender"/>
+                <birthTime value="19470101"/>
+            </patient>
+        </patientRole>
+    </recordTarget>
+
+    <author>
+        <time value="20260517110000+0200"/>
+        <assignedAuthor>
+            <id root="2.16.840.1.113883.2.9.4.3.2" extension="BNCLGI70B12F205W"/>
+            <telecom use="WP" value="tel:+390510000000"/>
+            <assignedPerson>
+                <name>
+                    <prefix>Dott.</prefix>
+                    <given>Luigi</given>
+                    <family>Bianchi</family>
+                </name>
+            </assignedPerson>
+            <representedOrganization>
+                <id root="2.16.840.1.113883.2.9.4.1.2" extension="080101"/>
+                <name>Azienda USL di Bologna - Centro Biomeccanica</name>
+            </representedOrganization>
+        </assignedAuthor>
+    </author>
+
+    <custodian>
+        <assignedCustodian>
+            <representedCustodianOrganization>
+                <id root="2.16.840.1.113883.2.9.4.1.2" extension="080101"/>
+                <name>Azienda USL di Bologna</name>
+            </representedCustodianOrganization>
+        </assignedCustodian>
+    </custodian>
+
+    <legalAuthenticator>
+        <time value="20260517110000+0200"/>
+        <signatureCode code="S"/>
+        <assignedEntity>
+            <id root="2.16.840.1.113883.2.9.4.3.2" extension="BNCLGI70B12F205W"/>
+            <assignedPerson>
+                <name>
+                    <prefix>Dott.</prefix>
+                    <given>Luigi</given>
+                    <family>Bianchi</family>
+                </name>
+            </assignedPerson>
+            <representedOrganization>
+                <id root="2.16.840.1.113883.2.9.4.1.2" extension="080101"/>
+                <name>Azienda USL di Bologna - Centro Biomeccanica</name>
+            </representedOrganization>
+        </assignedEntity>
+    </legalAuthenticator>
+
+    <componentOf>
+        <encompassingEncounter>
+            <effectiveTime value="20260517110000+0200"/>
+            <location>
+                <healthCareFacility>
+                    <serviceProviderOrganization>
+                        <id root="2.16.840.1.113883.2.9.4.1.2" extension="080101"/>
+                        <name>Azienda USL di Bologna - Centro Biomeccanica</name>
+                        <asOrganizationPartOf>
+                            <id root="2.16.840.1.113883.2.9.4.1.1" extension="080101"/>
+                        </asOrganizationPartOf>
+                    </serviceProviderOrganization>
+                </healthCareFacility>
+            </location>
+        </encompassingEncounter>
+    </componentOf>
+
+    <component>
+        <structuredBody>
+            
+            <component>
+                <section>
+                    <code code="29299-5" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Motivo della visita"/>
+                    <title>Quesito Diagnostico</title>
+                    <text>
+                        <paragraph>Sospetto clinico prodromico parkinsoniano in valutazione per inquadramento della vulnerabilità fenotipica.</paragraph>
+                    </text>
+                </section>
+            </component>
+
+            <component>
+                <section>
+                    <code code="62387-6" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Interventi clinici effettuati"/>
+                    <title>Prestazioni</title>
+                    <text>
+                        <paragraph>Al fine di ottenere i dati per la refertazione odierna, sono state eseguite le seguenti procedure cliniche e valutazioni informatiche sul paziente:</paragraph>
+                        <list listType="ordered">
+                            <item>Somministrazione del test neuropsicologico Montreal Cognitive Assessment (MoCA).</item>
+                            <item>Valutazione motoria tramite scala MDS-UPDRS Part III.</item>
+                            <item>Analisi cinematica del cammino per la valutazione di parametri spazio-temporali.</item>
+                            <item>Applicazione di algoritmo informatico predittivo per il calcolo della Vulnerabilità Parkinsoniana.</item>
+                        </list>
+                    </text>
+                    <entry>
+                        <act classCode="ACT" moodCode="EVN">
+                            <id root="2.16.840.1.113883.2.9.2.80.4.4" extension="ACT-HC111"/>
+                            <code code="81375008" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Valutazione dell'andatura (Gait assessment)"/> 
+                            <effectiveTime value="20260517110000+0200"/>
+                        </act>
+                    </entry>
+                </section>
+            </component>
+
+            <component>
+                <section>
+                    <templateId root="2.16.840.1.113883.2.9.10.1.4.2.14" extension="1.1"/>
+                    <code code="47045-0" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Referto di studio"/>
+                    <title>Referto</title>
+                    <text>
+                        <table border="1" width="100%">
+                            <tr><th>Parametro Analizzato</th><th>Risultato</th></tr>
+                            <tr><td><content styleCode="Bold">ID Soggetto nel Dataset</content></td><td>HC111</td></tr>
+                            <tr><td><content styleCode="Bold">Anno di Nascita (calcolato)</content></td><td>1947</td></tr>
+                            <tr><td><content styleCode="Bold">Altezza</content></td><td>152.4 cm</td></tr><tr><td><content styleCode="Bold">Peso</content></td><td>64.0 kg</td></tr><tr><td><content styleCode="Bold">Montreal Cognitive Assessment [MoCA]</content></td><td>29.0</td></tr><tr><td><content styleCode="Bold">MDS-UPDRS Part III (Motor)</content></td><td>3.0</td></tr><tr><td><content styleCode="Bold">Gait speed (observable entity)</content></td><td>83.684 cm/s</td></tr><tr><td><content styleCode="Bold">Step length (observable entity)</content></td><td>46.704 cm</td></tr><tr><td><content styleCode="Bold">Indice Vulnerabilità Prodromica (IVP)</content></td><td>24.5</td></tr><tr><td><content styleCode="Bold">Classe IVP (Livello di Danno)</content></td><td>Danno assente/lieve (&lt;25)</td></tr><tr><td><content styleCode="Bold">Indice di Rottura Compenso (IRP) %</content></td><td>13.1</td></tr><tr><td><content styleCode="Bold">Classe IRP (Stato di Compenso)</content></td><td>Compenso/Stabile (&lt;25%)</td></tr><tr><td><content styleCode="Bold">Fenotipo Clinico Prodromico</content></td><td>Sani Puri (Resilienti)</td></tr>
+                        </table>
+                        <br/>
+                        <paragraph>
+                            <caption>Nota Metodologica sul Modello Predittivo</caption>
+                            La valutazione predittiva presentata in tabella è stata effettuata utilizzando un modello statistico di regressione logistica. Si precisa che tale modello è stato calibrato su un gruppo di studio ristretto composto da soli 36 pazienti. Il modello presenta una valutazione predittiva con una curva ROC avente un AUC di 0.972 e una sensibilità dello 0.88.
+                        </paragraph>
+                    </text>
+                    <entry>
+                        <observation classCode="OBS" moodCode="EVN">
+                            <templateId root="2.16.840.1.113883.2.9.10.1.4.3.1.1"/>
+                            <id root="2.16.840.1.113883.2.9.2.80.4.4" extension="27520011-BE8F-48E5-A4B3-E6DF2897AACC"/>
+                            <code code="8302-2" codeSystem="2.16.840.1.113883.6.1" displayName="Altezza"/>
+                            <statusCode code="completed"/>
+                            <effectiveTime value="20260517110000+0200"/>
+                            <value xsi:type="PQ" value="152.4" unit="cm"/>
+                        </observation>
+                    </entry>
+                    <entry>
+                        <observation classCode="OBS" moodCode="EVN">
+                            <templateId root="2.16.840.1.113883.2.9.10.1.4.3.1.1"/>
+                            <id root="2.16.840.1.113883.2.9.2.80.4.4" extension="8C1FC51C-6A53-4ADA-9C0D-E14779C2FBF5"/>
+                            <code code="29463-7" codeSystem="2.16.840.1.113883.6.1" displayName="Peso"/>
+                            <statusCode code="completed"/>
+                            <effectiveTime value="20260517110000+0200"/>
+                            <value xsi:type="PQ" value="64.0" unit="kg"/>
+                        </observation>
+                    </entry>
+                    <entry>
+                        <observation classCode="OBS" moodCode="EVN">
+                            <templateId root="2.16.840.1.113883.2.9.10.1.4.3.1.1"/>
+                            <id root="2.16.840.1.113883.2.9.2.80.4.4" extension="60A6170E-FB90-4064-B7D6-69BA4A9CF002"/>
+                            <code code="72133-2" codeSystem="2.16.840.1.113883.6.1" displayName="Montreal Cognitive Assessment [MoCA]"/>
+                            <statusCode code="completed"/>
+                            <effectiveTime value="20260517110000+0200"/>
+                            <value xsi:type="REAL" value="29.0"/>
+                        </observation>
+                    </entry>
+                    <entry>
+                        <observation classCode="OBS" moodCode="EVN">
+                            <templateId root="2.16.840.1.113883.2.9.10.1.4.3.1.1"/>
+                            <id root="2.16.840.1.113883.2.9.2.80.4.4" extension="3762AD15-7510-4CC5-8FBB-A1A7F6031EF0"/>
+                            <code code="77717-7" codeSystem="2.16.840.1.113883.6.1" displayName="MDS-UPDRS Part III (Motor)"/>
+                            <statusCode code="completed"/>
+                            <effectiveTime value="20260517110000+0200"/>
+                            <value xsi:type="REAL" value="3.0"/>
+                            <entryRelationship typeCode="SPRT">
+                                <observation classCode="OBS" moodCode="EVN">
+                                    <id root="2.16.840.1.113883.2.9.2.80.4.4" extension="DDC0205F-C4EC-4740-8101-D8FA53B5ABDA"/>
+                                    <code code="IVP_SCORE" codeSystem="2.16.840.1.113883.2.9.2.80.4.99.1" codeSystemName="Sistema Predittivo Parkinson" displayName="Indice Vulnerabilità Prodromica (IVP)"/>
+                                    <statusCode code="completed"/>
+                                    <effectiveTime value="20260517110000+0200"/>
+                                    <value xsi:type="REAL" value="24.5"/>
+                                </observation>
+                            </entryRelationship>
+                            <entryRelationship typeCode="SPRT">
+                                <observation classCode="OBS" moodCode="EVN">
+                                    <id root="2.16.840.1.113883.2.9.2.80.4.4" extension="C0A6EEDD-7BF1-4B80-AEAE-6464F010D2C2"/>
+                                    <code code="IVP_CLASS" codeSystem="2.16.840.1.113883.2.9.2.80.4.99.1" codeSystemName="Sistema Predittivo Parkinson" displayName="Classe IVP (Livello di Danno)"/>
+                                    <statusCode code="completed"/>
+                                    <effectiveTime value="20260517110000+0200"/>
+                                    <value xsi:type="ST">Danno assente/lieve (&lt;25)</value>
+                                </observation>
+                            </entryRelationship>
+                            <entryRelationship typeCode="SPRT">
+                                <observation classCode="OBS" moodCode="EVN">
+                                    <id root="2.16.840.1.113883.2.9.2.80.4.4" extension="C2ADBD76-4B8B-4480-B562-250702D600E8"/>
+                                    <code code="IRP_SCORE" codeSystem="2.16.840.1.113883.2.9.2.80.4.99.1" codeSystemName="Sistema Predittivo Parkinson" displayName="Indice di Rottura Compenso (IRP) %"/>
+                                    <statusCode code="completed"/>
+                                    <effectiveTime value="20260517110000+0200"/>
+                                    <value xsi:type="REAL" value="13.1"/>
+                                </observation>
+                            </entryRelationship>
+                            <entryRelationship typeCode="SPRT">
+                                <observation classCode="OBS" moodCode="EVN">
+                                    <id root="2.16.840.1.113883.2.9.2.80.4.4" extension="974E4939-8A78-4D30-895F-E2E047F93352"/>
+                                    <code code="IRP_CLASS" codeSystem="2.16.840.1.113883.2.9.2.80.4.99.1" codeSystemName="Sistema Predittivo Parkinson" displayName="Classe IRP (Stato di Compenso)"/>
+                                    <statusCode code="completed"/>
+                                    <effectiveTime value="20260517110000+0200"/>
+                                    <value xsi:type="ST">Compenso/Stabile (&lt;25%)</value>
+                                </observation>
+                            </entryRelationship>
+                            <entryRelationship typeCode="SPRT">
+                                <observation classCode="OBS" moodCode="EVN">
+                                    <id root="2.16.840.1.113883.2.9.2.80.4.4" extension="AA285045-C1CD-49BE-BFFF-5365AEDB2859"/>
+                                    <code code="PHENOTYPE" codeSystem="2.16.840.1.113883.2.9.2.80.4.99.1" codeSystemName="Sistema Predittivo Parkinson" displayName="Fenotipo Clinico Prodromico"/>
+                                    <statusCode code="completed"/>
+                                    <effectiveTime value="20260517110000+0200"/>
+                                    <value xsi:type="ST">Sani Puri (Resilienti)</value>
+                                </observation>
+                            </entryRelationship>
+                        </observation>
+                    </entry>
+                    <entry>
+                        <observation classCode="OBS" moodCode="EVN">
+                            <templateId root="2.16.840.1.113883.2.9.10.1.4.3.1.1"/>
+                            <id root="2.16.840.1.113883.2.9.2.80.4.4" extension="899C4EC2-DDFA-40FE-BC06-EA105A5F33DB"/>
+                            <code code="724237005" codeSystem="2.16.840.1.113883.6.96" displayName="Gait speed (observable entity)"/>
+                            <statusCode code="completed"/>
+                            <effectiveTime value="20260517110000+0200"/>
+                            <value xsi:type="PQ" value="83.684" unit="cm/s"/>
+                        </observation>
+                    </entry>
+                    <entry>
+                        <observation classCode="OBS" moodCode="EVN">
+                            <templateId root="2.16.840.1.113883.2.9.10.1.4.3.1.1"/>
+                            <id root="2.16.840.1.113883.2.9.2.80.4.4" extension="9365789F-A965-4A26-8E2D-4C54CD5ADDD3"/>
+                            <code code="250000008" codeSystem="2.16.840.1.113883.6.96" displayName="Step length (observable entity)"/>
+                            <statusCode code="completed"/>
+                            <effectiveTime value="20260517110000+0200"/>
+                            <value xsi:type="PQ" value="46.704" unit="cm"/>
+                        </observation>
+                    </entry>
+                </section>
+            </component>
+
+        </structuredBody>
+    </component>
+</ClinicalDocument>
